@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: rebeccapurple;
+}
+
+h2 {
+  color: palevioletred;
+}
+
+.topNav ul {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.topNav a {
+  text-decoration: none;
+  color: lightskyblue;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+header h1 {
+  color: white;
+  background-color: palegoldenrod;
+  font-size: 40px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: peachpuff;
+}
+
+main {
+  background-color: paleturquoise;
+  font-size: 0;
+}
+
+img {
+  background-color: lightskyblue;
+  height: 204px;
+  width: 204px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 100%;
+  box-shadow: 7px 5px 5px lightskyblue;
+}
+
+article {
+  background-color: papayawhip;
+  width: 70%;
+  padding-bottom: 10px;
+  border-bottom: 3px solid palevioletred;
+}
+
+aside {
+  background-color: lightyellow;
+  height: 50vh;
+  width: 30%;
+  position: sticky;
+  top: 90px;
+  padding: 100px 10px;
+  text-align: center;
+}
+
+aside a {
+  padding-bottom: 10px;
+  display: block;
+  color: rebeccapurple;
+}
+
+article,
+aside {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+article h1,
+article h2 {
+  margin-bottom: 10px;
+}
+
+article h1,
+article h2,
+article p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.quote {
+  width: 80%;
+  margin: 5px auto 15px;
+  border-left: 3px solid palevioletred;
+  font-style: italic;
+}
+
+footer {
+  background-color: lightcyan;
+  height: 30px;
+  padding: 5px 0 5px 10px;
+}
